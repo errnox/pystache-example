@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Mustache test</title>
+  </head>
+
+<body>
+  <h1>Greeting</h1>
+  Hello, {{person}}!
+
+  <h2>Colors</h2>
+  Your favorite colors are:
+  <ul>
+    {{#colors}}
+      <li>{{color}}</li>
+    {{/colors}}
+  </ul>
+
+  <h2>Callable object test</h2>
+  <ul>
+    {{#cars}}
+      {{wrapped}}
+    {{/cars}}
+  </ul>
+
+</body>
+</html>
