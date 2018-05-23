@@ -24,11 +24,7 @@ _from test import PystacheTest_
 
 _from test import TestView_
 
-_hello = TestView()_
-
-_renderer = pystache.Renderer()_
-
-_print renderer.render(hello)_
+_print pystache.Renderer().render(TestView())_
 
 # **output**:
 
