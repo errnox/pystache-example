@@ -10,7 +10,7 @@ class PystacheTest(object):
         return pystache.render(self.template, self.mapping)
 
 
-class TestView(pystache.View):
+class TestView(object):
     def person(self):
         return 'Peter'
 
@@ -47,4 +47,4 @@ if __name__ == '__main__':
     # print test.run()
 
     # With view
-    print TestView().render()
+	print(TestView().render())
