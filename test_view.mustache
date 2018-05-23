@@ -1,26 +1,26 @@
 <html>
-  <head>
-    <title>Mustache test</title>
-  </head>
+<head>
+<title> Mustache Test </title>
+</head>
 
 <body>
-  <h1>Greeting</h1>
-  Hello, {{person}}!
+<h1> Greeting </h1>
+Hello, {{person}}!
 
-  <h2>Colors</h2>
-  Your favorite colors are:
-  <ul>
-    {{#colors}}
-      <li>{{color}}</li>
-    {{/colors}}
-  </ul>
+<h2> colors </h2>
+your favourite colors are:
+<ul>
+{{#colors}}
+<li> {{color}} </li>
+{{/colors}}
+</ul>
 
-  <h2>Callable object test</h2>
-  <ul>
-    {{#cars}}
-      {{wrapped}}
-    {{/cars}}
-  </ul>
-
+<h2> callable Object test </h2>
+<ul>
+{{#cars}}
+{{name}}
+{{/cars}}
+</ul>
 </body>
 </html>
+
